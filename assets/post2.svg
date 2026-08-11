@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2f1"/>
+      <stop offset="100%" stop-color="#80cbc4"/>
+    </linearGradient>
+    <linearGradient id="pack2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b3e5fc"/>
+      <stop offset="100%" stop-color="#4fc3f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg2)"/>
+  <g stroke="#26a69a" stroke-width="4" opacity="0.5">
+    <line x1="300" y1="210" x2="300" y2="50"/>
+    <line x1="300" y1="210" x2="450" y2="100"/>
+    <line x1="300" y1="210" x2="150" y2="100"/>
+    <line x1="300" y1="210" x2="510" y2="200"/>
+    <line x1="300" y1="210" x2="90" y2="200"/>
+  </g>
+  <g>
+    <circle cx="100" cy="90" r="6" fill="#ffca28"/>
+    <circle cx="500" cy="100" r="7" fill="#26a69a"/>
+    <circle cx="460" cy="310" r="5" fill="#00796b"/>
+    <circle cx="70" cy="290" r="6" fill="#ffb300"/>
+    <rect x="160" y="60" width="10" height="10" fill="#004d40" transform="rotate(20 165 65)"/>
+    <rect x="430" y="240" width="10" height="10" fill="#ffca28" transform="rotate(-15 435 245)"/>
+  </g>
+  <path d="M215 400 Q215 305 300 305 Q385 305 385 400 Z" fill="#00897b"/>
+  <rect x="285" y="248" width="30" height="40" fill="#e6b98d"/>
+  <circle cx="300" cy="223" r="55" fill="#e6b98d"/>
+  <path d="M247 208 Q249 158 300 160 Q351 158 353 208 L353 216 Q332 182 300 190 Q268 182 247 216 Z" fill="#212121"/>
+  <circle cx="282" cy="226" r="4" fill="#212121"/>
+  <circle cx="318" cy="226" r="4" fill="#212121"/>
+  <path d="M275 243 Q300 266 325 243" stroke="#212121" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M230 305 Q170 250 155 160" stroke="#e6b98d" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M370 305 Q430 250 445 160" stroke="#e6b98d" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M230 305 Q205 275 215 325" stroke="#00695c" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M370 305 Q395 275 385 325" stroke="#00695c" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <g transform="translate(340 95) rotate(10)">
+    <rect x="0" y="0" width="90" height="120" rx="8" fill="url(#pack2)" stroke="#0277bd" stroke-width="3"/>
+    <circle cx="45" cy="45" r="24" fill="#ffffff" stroke="#0277bd" stroke-width="3"/>
+    <path d="M21 45 H69" stroke="#0277bd" stroke-width="3"/>
+    <circle cx="45" cy="45" r="7" fill="#ffffff" stroke="#0277bd" stroke-width="3"/>
+    <text x="45" y="90" font-size="12" font-family="Verdana, sans-serif" fill="#01579b" text-anchor="middle" font-weight="bold">PRIZE</text>
+    <text x="45" y="106" font-size="10" font-family="Verdana, sans-serif" fill="#01579b" text-anchor="middle" font-weight="bold">PACK</text>
+    <path d="M10 10 L30 25" stroke="#e1f5fe" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="385" font-size="18" font-family="Verdana, sans-serif" fill="#004d40" text-anchor="middle" font-weight="bold">180 DAYS CLEAN + A CHARIZARD 🐉</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#a5d6a7"/>
+    </linearGradient>
+    <linearGradient id="pack1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="100%" stop-color="#ff9800"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg1)"/>
+  <!-- burst rays -->
+  <g stroke="#66bb6a" stroke-width="4" opacity="0.5">
+    <line x1="300" y1="200" x2="300" y2="40"/>
+    <line x1="300" y1="200" x2="440" y2="80"/>
+    <line x1="300" y1="200" x2="160" y2="80"/>
+    <line x1="300" y1="200" x2="500" y2="180"/>
+    <line x1="300" y1="200" x2="100" y2="180"/>
+  </g>
+  <!-- confetti -->
+  <g>
+    <circle cx="90" cy="70" r="6" fill="#ffca28"/>
+    <circle cx="520" cy="90" r="7" fill="#66bb6a"/>
+    <circle cx="470" cy="300" r="5" fill="#43a047"/>
+    <circle cx="60" cy="280" r="6" fill="#ffb300"/>
+    <rect x="150" y="50" width="10" height="10" fill="#2e7d32" transform="rotate(20 155 55)"/>
+    <rect x="440" y="230" width="10" height="10" fill="#ffca28" transform="rotate(-15 445 235)"/>
+  </g>
+  <!-- body -->
+  <path d="M220 400 Q220 300 300 300 Q380 300 380 400 Z" fill="#43a047"/>
+  <!-- neck -->
+  <rect x="285" y="240" width="30" height="40" fill="#ffcc99"/>
+  <!-- head -->
+  <circle cx="300" cy="215" r="55" fill="#ffcc99"/>
+  <path d="M248 200 Q248 150 300 150 Q352 150 352 200 L352 210 Q330 175 300 182 Q270 175 248 210 Z" fill="#3e2723"/>
+  <circle cx="282" cy="218" r="4" fill="#3e2723"/>
+  <circle cx="318" cy="218" r="4" fill="#3e2723"/>
+  <path d="M275 235 Q300 258 325 235" stroke="#3e2723" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- raised arms -->
+  <path d="M235 300 Q180 240 165 150" stroke="#ffcc99" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M365 300 Q420 240 435 150" stroke="#ffcc99" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- shirt sleeves -->
+  <path d="M235 300 Q210 270 220 320" stroke="#2e7d32" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M365 300 Q390 270 380 320" stroke="#2e7d32" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <!-- prize pack -->
+  <g transform="translate(255 90) rotate(-6)">
+    <rect x="0" y="0" width="90" height="120" rx="8" fill="url(#pack1)" stroke="#e65100" stroke-width="3"/>
+    <circle cx="45" cy="45" r="24" fill="#ffffff" stroke="#e65100" stroke-width="3"/>
+    <path d="M21 45 H69" stroke="#e65100" stroke-width="3"/>
+    <circle cx="45" cy="45" r="7" fill="#ffffff" stroke="#e65100" stroke-width="3"/>
+    <text x="45" y="90" font-size="12" font-family="Verdana, sans-serif" fill="#7a3e00" text-anchor="middle" font-weight="bold">PRIZE</text>
+    <text x="45" y="106" font-size="10" font-family="Verdana, sans-serif" fill="#7a3e00" text-anchor="middle" font-weight="bold">PACK</text>
+    <path d="M10 10 L30 25" stroke="#fff9c4" stroke-width="4" opacity="0.7" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="380" font-size="18" font-family="Verdana, sans-serif" fill="#1b5e20" text-anchor="middle" font-weight="bold">DAY 47 SOBER 🎉</text>
+</svg>

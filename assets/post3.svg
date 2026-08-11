@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f1f8e9"/>
+      <stop offset="100%" stop-color="#c5e1a5"/>
+    </linearGradient>
+    <linearGradient id="pack3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ce93d8"/>
+      <stop offset="100%" stop-color="#8e24aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg3)"/>
+  <g stroke="#7cb342" stroke-width="4" opacity="0.5">
+    <line x1="300" y1="205" x2="300" y2="45"/>
+    <line x1="300" y1="205" x2="445" y2="90"/>
+    <line x1="300" y1="205" x2="155" y2="90"/>
+    <line x1="300" y1="205" x2="505" y2="190"/>
+    <line x1="300" y1="205" x2="95" y2="190"/>
+  </g>
+  <g>
+    <circle cx="95" cy="80" r="6" fill="#fdd835"/>
+    <circle cx="510" cy="95" r="7" fill="#7cb342"/>
+    <circle cx="465" cy="305" r="5" fill="#558b2f"/>
+    <circle cx="65" cy="285" r="6" fill="#f9a825"/>
+    <rect x="155" y="55" width="10" height="10" fill="#33691e" transform="rotate(20 160 60)"/>
+    <rect x="435" y="235" width="10" height="10" fill="#fdd835" transform="rotate(-15 440 240)"/>
+  </g>
+  <path d="M218 400 Q218 302 300 302 Q382 302 382 400 Z" fill="#558b2f"/>
+  <rect x="285" y="244" width="30" height="40" fill="#8d5524"/>
+  <circle cx="300" cy="219" r="55" fill="#8d5524"/>
+  <path d="M245 204 Q245 154 300 156 Q355 154 355 204 L355 212 Q334 178 300 186 Q266 178 245 212 Z" fill="#1a1a1a"/>
+  <circle cx="282" cy="222" r="4" fill="#1a1a1a"/>
+  <circle cx="318" cy="222" r="4" fill="#1a1a1a"/>
+  <path d="M275 239 Q300 262 325 239" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M233 302 Q175 245 160 155" stroke="#8d5524" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M367 302 Q425 245 440 155" stroke="#8d5524" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M233 302 Q208 272 218 322" stroke="#33691e" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M367 302 Q392 272 382 322" stroke="#33691e" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <g transform="translate(258 88) rotate(-12)">
+    <rect x="0" y="0" width="90" height="120" rx="8" fill="url(#pack3)" stroke="#4a148c" stroke-width="3"/>
+    <circle cx="45" cy="45" r="24" fill="#ffffff" stroke="#4a148c" stroke-width="3"/>
+    <path d="M21 45 H69" stroke="#4a148c" stroke-width="3"/>
+    <circle cx="45" cy="45" r="7" fill="#ffffff" stroke="#4a148c" stroke-width="3"/>
+    <text x="45" y="90" font-size="12" font-family="Verdana, sans-serif" fill="#3e0a5c" text-anchor="middle" font-weight="bold">PRIZE</text>
+    <text x="45" y="106" font-size="10" font-family="Verdana, sans-serif" fill="#3e0a5c" text-anchor="middle" font-weight="bold">PACK</text>
+    <path d="M10 10 L30 25" stroke="#f3e5f5" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="380" font-size="18" font-family="Verdana, sans-serif" fill="#33691e" text-anchor="middle" font-weight="bold">1 YEAR CHIP + A HOLO RARE ✨</text>
+</svg>

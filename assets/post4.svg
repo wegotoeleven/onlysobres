@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#81c784"/>
+    </linearGradient>
+    <linearGradient id="pack4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffab91"/>
+      <stop offset="100%" stop-color="#e64a19"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg4)"/>
+  <g stroke="#43a047" stroke-width="4" opacity="0.5">
+    <line x1="300" y1="200" x2="300" y2="40"/>
+    <line x1="300" y1="200" x2="440" y2="80"/>
+    <line x1="300" y1="200" x2="160" y2="80"/>
+    <line x1="300" y1="200" x2="500" y2="180"/>
+    <line x1="300" y1="200" x2="100" y2="180"/>
+  </g>
+  <g>
+    <circle cx="90" cy="70" r="6" fill="#ffee58"/>
+    <circle cx="520" cy="90" r="7" fill="#43a047"/>
+    <circle cx="470" cy="300" r="5" fill="#2e7d32"/>
+    <circle cx="60" cy="280" r="6" fill="#ffca28"/>
+    <rect x="150" y="50" width="10" height="10" fill="#1b5e20" transform="rotate(20 155 55)"/>
+    <rect x="440" y="230" width="10" height="10" fill="#ffee58" transform="rotate(-15 445 235)"/>
+  </g>
+  <path d="M215 400 Q215 298 300 298 Q385 298 385 400 Z" fill="#2e7d32"/>
+  <rect x="285" y="238" width="30" height="40" fill="#ffd8b0"/>
+  <circle cx="300" cy="213" r="55" fill="#ffd8b0"/>
+  <path d="M246 198 Q248 148 300 150 Q352 148 354 198 L354 206 Q332 172 300 180 Q268 172 246 206 Z" fill="#d84315"/>
+  <circle cx="282" cy="216" r="4" fill="#3e2723"/>
+  <circle cx="318" cy="216" r="4" fill="#3e2723"/>
+  <path d="M275 233 Q300 256 325 233" stroke="#3e2723" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M230 298 Q172 240 158 148" stroke="#ffd8b0" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M370 298 Q428 240 442 148" stroke="#ffd8b0" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M230 298 Q205 268 215 318" stroke="#1b5e20" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M370 298 Q395 268 385 318" stroke="#1b5e20" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <g transform="translate(340 90) rotate(8)">
+    <rect x="0" y="0" width="90" height="120" rx="8" fill="url(#pack4)" stroke="#bf360c" stroke-width="3"/>
+    <circle cx="45" cy="45" r="24" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+    <path d="M21 45 H69" stroke="#bf360c" stroke-width="3"/>
+    <circle cx="45" cy="45" r="7" fill="#ffffff" stroke="#bf360c" stroke-width="3"/>
+    <text x="45" y="90" font-size="12" font-family="Verdana, sans-serif" fill="#5d1a00" text-anchor="middle" font-weight="bold">PRIZE</text>
+    <text x="45" y="106" font-size="10" font-family="Verdana, sans-serif" fill="#5d1a00" text-anchor="middle" font-weight="bold">PACK</text>
+    <path d="M10 10 L30 25" stroke="#fff3e0" stroke-width="4" opacity="0.8" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="380" font-size="18" font-family="Verdana, sans-serif" fill="#1b5e20" text-anchor="middle" font-weight="bold">24 HOURS SOBER, FEELING LIKE A PIKACHU ⚡</text>
+</svg>
