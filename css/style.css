@@ -102,6 +102,24 @@ button { font-family: inherit; cursor: pointer; }
   border: 2px solid white;
 }
 
+/* ===== TAGLINE BAR ===== */
+.tagline-bar {
+  background: var(--green-light);
+  color: var(--green-darker);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.tagline-bar em {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-color: var(--green-primary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
 /* ===== LAYOUT ===== */
 .layout {
   max-width: 1400px;
